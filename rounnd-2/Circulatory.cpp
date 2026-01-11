@@ -28,7 +28,7 @@ int main() {
 
     queue<pair<int,int>> q;
 
-    // Initialize: entering any open cell on the outermost ring costs 1
+    // Initialize: entering any open cell on the outermost ring costs 1 step
     int outer = N - 1;
     for (int p = 0; p < L[outer]; ++p) {
         if (rings[outer][p] == '0') {
